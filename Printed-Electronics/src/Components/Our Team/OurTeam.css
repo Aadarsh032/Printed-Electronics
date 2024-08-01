@@ -1,0 +1,203 @@
+
+.ourteam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 3s;
+    margin-bottom: 20px;
+    
+    
+}
+.oureteam-main-heading{
+    font-size: 60px;
+    text-align: center;
+}
+
+.stu_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    justify-content: center;
+    
+}
+
+.profile-img{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px #999;
+    border-radius: 50%;
+}
+
+.description{
+    text-align:justify;
+    margin: 6px 20px 0px 20px;
+}
+.name{
+    margin-left: 20px;
+    font-size:x-large;
+    margin: auto;
+    
+}
+.divder-line{
+     height: 5px;
+     background-color: rgba(237,232,245,1);
+    border-radius: 20px;
+}
+.phdstu{
+    text-align: center;
+}
+.mtechstu{
+    text-align: center;
+}
+.JRFstu{
+    text-align: center;
+}
+.project_stu{
+text-align: center;
+}
+.alumini_stu{
+    text-align: center;
+}
+.ourteam-backgroundimage{
+    width: 100%;
+}
+.ourteam-imagebox{
+    position: relative;
+}
+.oureteam-main-heading{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    color: white;
+}
+
+.professor-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.professor-content{
+    display: flex;
+    flex-direction:column;
+    width: 75%;
+    gap:20px;
+     align-items: center;
+    /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+    margin: auto;
+}
+
+.phd-student-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.phd-student-content{
+    display: flex;
+    flex-direction:column;
+    width: 390px;
+    gap:20px;
+     align-items: center;
+    /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+}
+
+.mtech-student-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.mtech-student-content{
+    display: flex;
+    flex-direction:column;
+    width: 390px;
+    gap:20px;
+     align-items: center;
+     /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+}
+
+.JRF-student-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.JRF-student-content{
+    display: flex;
+    flex-direction:column;
+    width: 390px;
+    gap:20px;
+     align-items: center;
+    /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+}
+
+.project-student-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.project-student-content{
+    display: flex;
+    flex-direction:column;
+    width: 390px;
+    gap:20px;
+     align-items: center;
+     /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+}
+
+.alumini-student-box-text{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.alumini-student-content{
+    display: flex;
+    flex-direction:column;
+    width: 390px;
+    gap:20px;
+     align-items: center;
+     /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
+     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #1573ff;
+    box-shadow: 0 0 5px #999;
+}
+
+
+

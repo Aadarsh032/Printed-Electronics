@@ -1,0 +1,49 @@
+body{
+    font-family: "Playfair Display", serif;
+    /* font-family: "Radio Canada Big", sans-serif; */
+    /* font-family: "Roboto Serif", serif; */
+    /* font-family: "PT Serif", serif; */
+
+    /* //LIght */
+
+    background-color: rgb(241, 242, 248);   
+     color: black;
+      /* background-image:url('./assets/45564556.jpg'); */
+      background-size: 100%;
+
+    /* background-image: linear-gradient(45deg, #157aff81,#08dfbb80); */
+    /* color: wheat; */
+    
+    /* background-color: #000000; */
+ 
+    /* background-image: linear-gradient(45deg,rgb(235, 229, 217),#265077,#265077,#265077,#265077,#265077,#265077,#265077,#265077,rgb(235, 229, 217)); */
+    /* color: gold; */
+
+    /* color: beige; */
+   
+        
+    /* /// Dark */
+
+    color: rgb(0, 0, 0);
+    /* background-color: #1D3461; */
+
+    
+    /* background-color: #EDE8F5; */
+
+    /* background: rgb(112,145,230); */
+    /* background: linear-gradient(326deg, rgba(112,145,230,1) 0%, rgba(237,232,245,1) 100%); */
+    background-color: rgba(237,232,245,1);
+    margin: 0px;
+    
+    /* rgba(112,145,230,1) */
+
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%
+    {
+      opacity: 1;
+    }
+ }

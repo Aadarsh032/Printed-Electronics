@@ -1,0 +1,112 @@
+
+.aboutsection{
+    animation: fadeIn 2s; 
+    margin-bottom: 30px;
+}
+.aboutsection-heading{
+    text-align: center;
+    font-size:60px;
+}
+.aboutsection-areaofinterest-heading{
+    text-align: center;
+    font-size:60px;
+
+}
+.aboutsection-description-box h3{
+    font-size:50px;
+    color: black;
+}
+.aboutsection-upperdiv{
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.aboutsection-description-box{
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+}
+.interests-heading{
+    text-align: center;
+}
+.interests-format{
+    box-shadow: 0 0 4px #999;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 40px;
+    width: 750px;
+    margin: 5px;
+    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    transition: 1s;
+    
+}
+.interests-format:hover{
+    transform:scale(1.01);
+    transition:0.4s;
+}
+.interests-format-right{
+    margin-right: 20px;
+}
+.interests-format-img{
+
+   border-radius: 10px;
+    height:250px;
+    margin-left: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px #999;
+}
+.aboutsection-areaofinterest-box{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.stu_box{
+    /* border: 2px solid  white; */
+     display: flex;
+    align-items: center;
+    margin: auto;
+}
+.interests-description{
+    text-align: justify;
+    font-size: 17px;
+    padding: 10px;
+}
+.hr-about{
+    width:200px;
+}
+.aboutus-para{
+    border: 7px solid rgba(112,145,230,1);
+    margin-top: 2px;
+    border-radius: 10px;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    background: #ede8f5e3;
+/* background: linear-gradient(31deg, rgba(61,82,160,1) 0%, rgba(112,145,230,1) 100%); */
+}
+.interests-heading{
+    font-size: 35px;
+}
+.aboutus-img{
+    width: 100%;
+    box-shadow: 0 0 10px #999;
+}
+.professor{
+    text-align: center;
+    font-size:60px;
+}

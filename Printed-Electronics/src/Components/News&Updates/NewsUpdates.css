@@ -1,0 +1,52 @@
+.newsupdates{
+    animation: fadeIn 3s;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin-bottom: 30px;
+}
+.newsupdates-main-heading{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    margin:40px;
+}
+
+.conferences-list{
+    margin: 10px;
+}
+.currentopenings{
+    width: 1000px;
+    margin: auto;
+    /* background-image: linear-gradient(45deg,#08dfbb36, #1573ff2f); */
+    /* background-image: linear-gradient(45deg,#08dfbbb3, #1573ffb6); */
+    background: linear-gradient(15deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    box-shadow: 0 0 5px #999;
+    padding: 20px;
+    border-radius: 20px;
+    list-style-image:linear-gradient(0 deg,); 
+}
+.currentopenings-list{
+    margin: 10px;
+}
+.currentopenings-heading{
+    text-align: center;
+}
+
+.upcomingevents{
+    width: 1000px;
+    margin: auto;
+    /* background-image: linear-gradient(45deg,#08dfbb36, #1573ff2f); */
+    background: linear-gradient(15deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    list-style-image:linear-gradient(0 deg,); 
+}
+.upcomingevents-list{
+    margin: 10px;
+}
+.upcomingevents-heading{
+    text-align: center;
+}

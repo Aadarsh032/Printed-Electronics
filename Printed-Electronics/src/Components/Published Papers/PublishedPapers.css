@@ -1,0 +1,88 @@
+.publishedpapers{
+    animation: fadeIn 2s ;
+    margin-bottom: 30px;
+}
+.publishedpapers-content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: fit-content;
+}
+.publishedpapers-content hr{
+    background: linear-gradient(264deg,rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%) ;
+    width: 10px;
+    margin-right: 20px;
+}
+.publishedpapers-heading-main{
+      font-size: 70px;
+      text-align: center;
+}
+.publishedpapers-content-papers-box{
+    width: 1450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #000000;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1));
+    transition: 2s;
+}
+.publishedpapers-content-papers-box:hover{
+    transform:scale(1.01);
+    transition:0.4s;
+}
+.publishedpapers-content-papers-box p{
+    margin-bottom: 0px;
+    font-size:20px;
+}
+
+.publishedpapers-content-papers{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.publishedpapers-content-timeline{
+    border-radius: 20px;
+}
+.publishedpapers-content-link{
+    color: azure;
+    text-decoration: none;
+}
+.publishedpapers-content-papers li{
+     font-size: 40px;
+     list-style-type: none;
+     font-weight:bolder;
+}
+.publishedpapers-heading{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.publishedpapers-authors{
+    margin-top: 0;
+    font-size: 15px;
+    text-align: justify;
+}
+.conferences{
+    width: 1350px;
+    margin: auto;
+    background-image: linear-gradient(45deg,#192A51, #4fbff7);
+    background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1));
+    color: white;
+    box-shadow: 0 0 5px black;
+    padding: 20px;
+    border-radius: 5px;
+    list-style-image:linear-gradient(0 deg); 
+    margin-bottom: 70px;
+    text-align: justify;
+    font-size: 22px;
+}
+.conferences-heading{
+    text-align: center;
+}
+.heading-underline{
+    margin-top: 0px;
+    width: 700px;
+}
