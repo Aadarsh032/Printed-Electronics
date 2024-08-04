@@ -15,6 +15,13 @@ import Manchester from '../../assets/collaborators/University of Manchester.png'
 import Southampton from '../../assets/collaborators/university of southampton.png'
 import Collaborators from '../Collaborators/Collaborators'
 
+
+// import firstimg from '../../assets/1.jpeg'
+
+import HomeCarousel from '../HomeCarousel/HomeCarousel'
+
+
+
 // import bhu from '../../assets/collaborators - Copy/BHU.png'
 // import IISc from '../../assets/collaborators - Copy/IISc.png'
 // import IITdelhi from '../../assets/collaborators - Copy/IIT_Delhi.png'
@@ -67,6 +74,11 @@ const Home = () => {
              </div>
             </Link>
           </div> */}
+               
+               {/* <img src={firstimg} alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /> */}
+               <HomeCarousel/>
+
+
         </div>
       </div>
     </>

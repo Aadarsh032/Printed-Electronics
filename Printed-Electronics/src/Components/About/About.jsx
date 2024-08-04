@@ -14,7 +14,7 @@ const About = () => {
       <div className='aboutsection-description-box'>
       
         <h3>About Us</h3>
-        <p className='aboutus-para'>The "Printed Electronics Group" focused on the development and advancement of printed electronics technology.This group aims to create innovative solutions for various industries, including electronics, energy, and healthcare, by utilizing cutting-edge printing techniques. The home page serves as a platform for showcasing their work, publishing research findings, and communicating with the wider community of experts in the field. Visitors can learn about the group's mission, current projects, and team members, as well as stay up-to-date on the latest developments in the field of printed electronics.</p>
+        <p className='aboutus-para'>The "Printed a Electronics Group" focused on the development and advancement of printed electronics technology.This group aims to create innovative solutions for various industries, including electronics, energy, and healthcare, by utilizing cutting-edge printing techniques. The home page serves as a platform for showcasing their work, publishing research findings, and communicating with the wider community of experts in the field. Visitors can learn about the group's mission, current projects, and team members, as well as stay up-to-date on the latest developments in the field of printed electronics.</p>
         <p style={{ marginBottom: '0px' }}><b>Department of MSME</b> <hr className='hr-about' /></p>
         <p style={{ marginTop: '0px' }}><b>IIT Hyderabad</b></p>
       </div>

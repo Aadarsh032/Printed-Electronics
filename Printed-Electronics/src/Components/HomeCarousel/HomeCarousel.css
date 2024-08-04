@@ -1,0 +1,24 @@
+.embla {
+    overflow:hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ 
+  }
+  .embla__containerhome {
+    display: flex;
+    align-items: center;
+    
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    
+  }
+  .embla__home_slide-img{
+    height: 500px;
+    /* width: 800px; */
+    border-radius: 10px;
+    background-color: aqua;
+    width: 800px;
+  }
