@@ -50,3 +50,45 @@
 .upcomingevents-heading{
     text-align: center;
 }
+
+@media (max-width:1040px)
+{
+    .currentopenings{
+        width: 800px;
+    }
+    .upcomingevents{
+        width: 800px;
+    }
+}
+@media (max-width:850px)
+{
+    .currentopenings{
+        width: 600px;
+    }
+    .upcomingevents{
+        width: 600px;
+    }
+}
+@media (max-width:650px)
+{
+    .currentopenings{
+        width: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .upcomingevents{
+        width: 80%;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .newsupdates{
+        align-items: center;
+    }
+}
+@media (max-width:4500px)
+{
+    .newsupdates-main-heading{
+        font-size: 40px;
+    }
+}

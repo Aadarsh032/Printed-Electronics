@@ -32,6 +32,9 @@
 .contactus-box-right-contents img{
     border-radius: 50%;
 }
+.heading-underline{
+    width: 80%;
+}
 .contactus-map{
     border-radius: 20px;
     /* border: 2px solid black; */
@@ -46,5 +49,50 @@
     /* background: linear-gradient(264deg,#08dfbb 50.41%, #1573ff 90.45%);  */
     background: linear-gradient(264deg,rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%) ;
     border-radius: 10px; 
+  }
+
+  @media (max-width:1200px)
+  {
+    .contactus-box{
+        display: flex;
+        flex-direction: row;
+        gap:90px;
+        margin-left: 30px;
+    }
+  }
+  @media (max-width:840px)
+  {
+    .contactus-box{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+  }
+
+  @media (max-width:560px)
+  {
+    .contactus-box{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .contactus-map{
+         height:250px ;
+         width: 400px;
+    }
+    .contactus-box-right-contents{
+        text-align: center;
+    }
+  }
+  @media (max-width:560px)
+  {
+    .contactus-box{
+      
+        margin-left: 0px;
+    }
+    .contactus-map{
+         height: 500px; ;
+         width: 100%;
+    }
+    
   }
   

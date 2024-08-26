@@ -56,9 +56,7 @@
     /* justify-content: end; */
 }
 .lab-facility-box-img{
-    width:max-content;
-    
-    
+    width:max-content;  
 }
 .lab-facility-box-img-box{
     
@@ -92,4 +90,93 @@
     left: 0;
     bottom: 0;
     margin: auto;
+}
+
+
+
+@media (max-width:1180px) {
+    
+    .labfacility-main-heading{
+        font-size: 60px;
+    }
+    .labfacility-main-heading-dept{
+        font-size: 60px;
+    }
+    .lab-facility-textbox{
+        width: 400px;
+        /* justify-content: end; */
+    }
+
+
+}
+@media (max-width:980px) {
+    
+    .labfacility-main-heading{
+        font-size: 40px;
+    }
+    .labfacility-main-heading-dept{
+        font-size: 40px;
+    }
+    .lab-facility-textbox{
+        /* width: 400px; */
+    }
+    .lab-facility-textbox-heading{
+        font-size: 30px;
+    }
+    .lab-facility-textbox-description{
+        /* font-size: 15px; */
+    }
+    .lab-facility-box{
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width:530px) {
+    
+    .labfacility-main-heading{
+        font-size: 40px;
+    }
+    .labfacility-main-heading-dept{
+        font-size: 40px;
+    }
+    .lab-facility-textbox{
+        width: 250px;
+    }
+    .lab-facility-textbox-heading{
+        font-size: 25px;
+    }
+    .lab-facility-textbox-description{
+        font-size: 16px;
+    }
+    .lab-facility-box{
+        flex-direction: column;
+    }
+    .lab-facility-box-img{
+        height: 270px;
+        width:270px;
+       
+        /* box-shadow: 0 0 10px #999; */
+        border-radius: 10px;
+    }
+    .lab-facility-box-img-box{
+        width:fit-content; 
+        margin: 0%; 
+    }
+    
+
+}
+
+@media (max-width:400px) {
+    .lab-facility-textbox{
+        width: 200px;
+    }
+    .lab-facility-box-img{
+        height: 240px;
+        width:250px;
+    }
+    .departmentfacility{
+        display: none;
+    }
 }
