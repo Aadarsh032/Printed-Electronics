@@ -14,7 +14,7 @@
   }
 
 .footer hr{
-    width: 1500px;
+    width: 98%;
 }
 .upper_content{
     display: flex;
@@ -36,4 +36,13 @@
        /* dark */
        /* color: black; */
     /* color: black; */
+}
+@media (max-width:750px) {
+    .upper_content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
 }

@@ -13,7 +13,7 @@ const NewsUpdates = () => {
         {
           currentopenings.map((value, index) => {
             return (
-              <li className='currentopenings-list'>Join our research group as a Ph.D. student! Interested candidates can send there applications to <b ><u>suresh.kumar@msme.iith.ac.in</u></b> </li>
+              <li className='currentopenings-list'>Phd, Mtech, JRF, Btech students can send their applications to <b ><u>gsuresh@msme.iith.ac.in</u></b> </li>
             )
           })
         }

@@ -42,6 +42,11 @@ export const phd_stu =[
       profile_photo:Satya,
       description:"My name is Satyabrata Lenka.I am from Odisha.I have completed my bachelor's degree in Physics from Fakir Mohan University, Odisha. Also I have studied Msc Physics from Central University of South Bihar. I have qualified GATE 2023 with AIR 225 in Physics and joined as  an experimental condensed matter researcher at Dept.of Physics, IIT Hyderabad under MOE Programme. My research interest is on developing 3D printed capacitors for energy storage application."
    },
+   {
+      name:"Tamil",
+      profile_photo:Tamilselvan,
+      description:"I'm Tamil Selvan R, holding a master's degree in Green Energy Technology from Pondicherry University, and a bachelor's degree in Nanoscience and Technology. Presently, I'm employed as a Junior Research Fellow at IITH. My research interests revolve around renewable energy harvesting and resistive switching memories."
+   }
     
 ]
 
@@ -51,21 +56,7 @@ export const mtech_stu =[
       profile_photo: sanika,
       description:"I am Saanika Yadav. I am doing M.Tech in Semiconductor materials and devices (MSME DEPT. ) at IIT HYDERABAD. I have completed by B. Tech in Mechanical Engineering from Jabalpur Engineering College, Jabalpur (M.P.) My research interest is in organic transistors for health care applications."
    },
-    {
-       name:"Saud Akthar",
-       profile_photo:Saud,
-       description:"I am Saud Akhtar, an M.Tech student at IIT Hyderabad. I hold a B.Tech degree in Electronics and Telecommunication from KiiT Bhubaneshwar. My research focuses on metal oxide thin-film transistors involving 3D accumulation of charges with a wide range of application in printed and flexible electronics. Electrolyte gating is used to get high capacitance value and facilitate the fabrication of transistors in  ambient and room temperature conditions."
-    },
-     {
-        name:"K Sirajul Muneer",
-        profile_photo:siraj,
-        description:"I am K Sirajul Muneer, an M.Tech student in Integrated Sensor Systems at IIT Hyderabad. I completed my B.Tech from NIT Puducherry in Electrical and Electronics Engineering specialization. My research interests include memristors , digital circuits and analog circuits."
-     },
-     {
-      name:"Mitali Vijay",
-      profile_photo:Mitali,
-      description:"My name is Mitali Vijay. I am an M.Tech student in the Materials Science and Metallurgical Engineering Department at IIT Hyderabad, specializing in semiconductor materials and devices. As a DAAD KOSPIE scholar for 2023-24, I bring international research experience to my work. I hold a Bachelor’s degree in Physics, Chemistry, and Mathematics, and a Master’s degree in Physics from Rajasthan University."
-   }
+    
 ]
 
 

@@ -79,7 +79,7 @@ const OurTeam = () => {
 
        {/* // JRF */}
 
-       <div className='stu_box'>
+       {/* <div className='stu_box'>
         <h1 className="JRFstu">JRF<hr className='heading-underline' /></h1>
         <div className='JRF-student-box-text'>
         {
@@ -97,11 +97,11 @@ const OurTeam = () => {
           })
         }
         </div>
-      </div>
+      </div> */}
 
       {/* //Project Students */}
 
-      <div className='stu_box'>
+      {/* <div className='stu_box'>
         <h1 className="project_stu">Project Students<hr className='heading-underline' /></h1>
         <div className='project-student-box-text'>
         {
@@ -119,7 +119,7 @@ const OurTeam = () => {
           })
         }
         </div>
-      </div>
+      </div> */}
 
 
      {/* //Project Students */}
@@ -132,6 +132,12 @@ const OurTeam = () => {
                 <div className='textbox'>
                   <h1 className='name' >Rinsha P.C</h1>
                   <h1 className='name' >Jagini Sai Avinash</h1>
+                  <h1 className='name' >Saud Akthar</h1>
+                  <h1 className='name' >K Sirajul Muneer</h1>
+                  <h1 className='name' >Mitali Vijay</h1>
+                  <h1 className='name' >Syed Helal</h1>
+                  <h1 className='name' >Shehin KB</h1>
+                  <h1 className='name' >Ayana Johns</h1>
                 </div>
               </div>
         

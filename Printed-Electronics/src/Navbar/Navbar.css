@@ -33,7 +33,6 @@
     gap: 18px;
     font-size:25px;
     text-decoration: none;
-    
 }
 .linktag{
     text-decoration: none;
@@ -71,4 +70,132 @@
 }
 .nav-hr{
     margin-top: 0px;
+}
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
+    display: none;
+}
+#contactbuttonhid{
+    display: none;
+}
+@media (max-width:1536px)
+{
+    .navbar-pages{
+        gap: 15px;
+        font-size:20px;
+        text-decoration: none;
+    }
+    #contactbutton{
+        margin-left: 10px;
+        border: 3px solid rgba(112,145,230,1);
+        padding: 6px;
+        font-size: 20px;
+    }
+    .group-logo{
+        margin-top: 5px;
+        height: 80px;
+        width: 80px;
+    }
+}
+
+
+@media (max-width:1024px)
+{
+    .navbar-pages{
+        gap: 15px;
+        font-size:15px;
+        text-decoration: none;
+    }
+    #contactbutton{
+        margin-left: 10px;
+        border: 3px solid rgba(112,145,230,1);
+        padding: 6px;
+        font-size: 15px;
+    }
+    .group-logo{
+       
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width:800px) 
+{
+    .navbar-pages{
+        gap: 15px;
+        font-size:12px;
+        text-decoration: none;
+    }
+    #contactbutton{
+        margin-left: 10px;
+        border: 3px solid rgba(112,145,230,1);
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+@media (max-width:680px)
+{
+    .navbar-pages{
+        gap: 10px;
+        font-size:10px;
+      
+    }
+    #contactbutton{
+        margin-left: 10px;
+        border: 3px solid rgba(112,145,230,1);
+        padding: 6px;
+        font-size: 11px;
+    }  
+}
+@media (max-width:575px) {
+  
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position:relative;
+        top:30px;
+        left:290px;
+        width:30px;
+    }
+    .navbar-pages {
+        /* display: block; */
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        color: aliceblue;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -390px ;
+    }
+    .linktaghid{
+        color: aliceblue;
+        font-size: 30px;
+        padding-left:50px;
+    }
+    .navbar-pages li{
+        
+        font-size: 30px;
+        padding-left:50px;
+        flex-direction: row;
+        gap:20px;
+      
+    }
+    #contactbuttonhid{
+        display: block;
+    }
+    #contactbutton{
+         display: none;
+    }
+   
 }

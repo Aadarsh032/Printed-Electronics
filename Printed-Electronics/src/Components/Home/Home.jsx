@@ -46,7 +46,7 @@ const Home = () => {
           <h1 className='homepage-content-heading'>Printed Electronics Group</h1>
           <p className='homepage-content-paragraph'>
             <hr className='homepage-content-line' />Department of MSME, IIT Hyderabad<hr className='homepage-content-line' /></p>
-          <h1 className='homepage-content-slogan'>"Flex your electronics options with printed technology"</h1>
+          {/* <h1 className='homepage-content-slogan'>"Flex your electronics options with printed technology"</h1> */}
           </div>
           {/* <div className='collaborators'>
             <h3 className='collborators-heading'>Collaborators <hr /></h3>
