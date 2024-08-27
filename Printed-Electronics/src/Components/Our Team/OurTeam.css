@@ -202,5 +202,22 @@ text-align: center;
     box-shadow: 0 0 5px #999;
 }
 
+@media (max-width:500px) {
+     .phd-student-content {
+        width: fit-content;
+    }
+    .mtech-student-content{
+        width: fit-content;
+    }
+    .alumini-student-content{
+        width: fit-content;
+        padding: 40px;
+        text-align: center;
+    }
+    .oureteam-main-heading{
+        font-size: 40px;
+    }
+    
+}
 
 

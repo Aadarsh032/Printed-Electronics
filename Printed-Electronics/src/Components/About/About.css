@@ -92,7 +92,7 @@
 }
 .aboutus-para{
     border: 7px solid rgba(112,145,230,1);
-    margin-top: 2px;
+    margin-top: -50px;
     border-radius: 10px;
     padding: 25px;
     color: rgb(0, 0, 0);
@@ -109,4 +109,135 @@
 .professor{
     text-align: center;
     font-size:60px;
+}
+
+
+@media (max-width:1536px){
+    .aboutsection-description-box p{
+        font-size: 20px;
+    }
+    .aboutsection-description-box {
+        margin-top: -45px;
+    }
+    
+    .professor{
+        font-size: 40px;
+    }
+    .aboutsection-areaofinterest-heading{
+        font-size: 40px;
+    }
+    .aboutus-para{
+        margin-top: 0px;
+    }
+    .aboutus-para2{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:1316px){
+    .aboutsection-description-box p{
+        font-size: 20px;
+    }
+    .aboutsection-description-box {
+        margin-top: -45px;
+    }
+    
+    .professor{
+        font-size: 40px;
+    }
+    .aboutsection-areaofinterest-heading{
+        font-size: 40px;
+    }
+    .aboutus-para{
+        margin-top: -50px;
+    }
+}
+@media (max-width:1150px){
+    .aboutsection-description-box p{
+        font-size: 15px;
+    }
+    .aboutsection-description-box {
+        margin-top: -45px;
+    }
+    .professor{
+        font-size: 40px;
+    }
+    .aboutsection-areaofinterest-heading{
+        font-size: 40px;
+    }
+    .aboutus-para{
+        margin-top: -40px;
+    }
+    .aboutsection-description-box h3{
+        font-size:40px;
+       
+    }
+}
+
+@media (max-width:900px){
+    .aboutsection-description-box p{
+        font-size: 12px;
+    }
+    .aboutsection-description-box {
+        margin-top: -30px;
+    }
+    .professor{
+        font-size: 40px;
+    }
+    .aboutsection-areaofinterest-heading{
+        font-size: 40px;
+    }
+    .aboutus-para{
+        margin-top: -30px;
+    }
+    .aboutsection-description-box h3{
+        font-size:30px;
+       
+    }
+}
+@media (max-width:760px){
+    .aboutsection-description-box p{
+        font-size: 18px;
+    }
+    .aboutsection-description-box {
+        position: relative;
+        color: black;
+    }
+    .professor{
+        font-size: 30px;
+    }
+    .aboutsection-areaofinterest-heading{
+        font-size: 30px;
+    }
+    .aboutsection-description-box h3{
+        font-size:40px;
+       
+    }
+}
+@media (max-width:560px){
+ 
+    .interests-format{
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .interests-heading{
+        font-size: 25px;
+    }
+    .interests-description{
+        font-size: 15px;
+    }
+    .profile-img{
+        height: 250px;
+        width: 250px;
+    }
+    .professor-content-upperdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
 }
