@@ -6,7 +6,7 @@ import '../EmblaCarousel/embla.css'
 import { lab_device_list } from '../../assets/research_facility'
 import { Carouseldept } from '../Carousel/Carouseldept'
 
-import background3 from '../../assets/IIT-H5.jfif'
+import background3 from '../../assets/IIT-H5.jpg'
 
 
 
