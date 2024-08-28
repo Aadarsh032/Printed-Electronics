@@ -62,7 +62,7 @@
 }
 .publishedpapers-authors{
     margin-top: 0;
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify;
 }
 .conferences{
@@ -85,4 +85,92 @@
 .heading-underline{
     margin-top: 0px;
     width: 700px;
+}
+@media (max-width:1536px)
+{
+    .publishedpapers-content-papers-box{
+        width: 1200px;
+        
+    }
+    .conferences{
+        width: 1200px;
+        font-size: 22px;
+    }
+}
+@media (max-width:1280px)
+{
+    .publishedpapers-content-papers-box{
+        width: 900px;
+    }
+    .conferences{
+        width: 900px;
+        font-size: 17px;
+    }
+}
+@media (max-width:980px)
+{
+    .publishedpapers-content-papers-box{
+        width: 700px;
+        
+    }
+    .publishedpapers-heading{
+        font-size: 20px;
+    }
+    .publishedpapers-authors{
+        font-size: 15px;
+    }
+    .publishedpapers-heading-main{
+        font-size: 35px;
+    }
+    .conferences{
+        width: 700px;
+        font-size: 15px;
+    }
+}
+@media (max-width:770px)
+{
+    .publishedpapers-content-papers-box{
+        width: 500px;
+        font-size: 5px;
+    }
+    .publishedpapers-heading{
+        font-size: 20px;
+    }
+    .publishedpapers-authors{
+        font-size: 13px;
+    }
+    .publishedpapers-heading-main{
+        font-size: 35px;
+    }
+    .conferences{
+        width: 500px;
+        font-size: 13px;
+    }
+}
+@media (max-width:570px)
+{
+    .publishedpapers-authors{
+        display: none;
+    }
+    .publishedpapers-content-papers-box{
+        width: 300px;
+        font-size: 5px;
+    }
+    .publishedpapers-authors{
+        font-size: 12px;
+    }
+    .conferences{
+        width: 300px;
+        font-size: 10px;
+    }
+    .publishedpapers-heading{
+        font-size: 15px;
+    }
+    .publishedpapers-heading-main{
+        font-size: 35px;
+    }
+    .publishedpapers-authors1{
+        font-size: 10px;
+    }
+
 }

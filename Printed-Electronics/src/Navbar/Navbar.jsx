@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './Navbar.css'
-import logo2 from '../assets/logo2.png'
+import logo2 from '../assets/logo2.jpg'
 import menu_close from '../assets/menu_close.svg'
 import menu_open from '../assets/menu_open.svg'
 import University_Logo from '../assets/University Logo.jpeg'

@@ -108,6 +108,9 @@
     margin-right: 30px;
     font-size: 16px;
 }
+.logoimg{
+    display: none;
+}
 
 @keyframes smoothdisplaylogos {
    
@@ -188,6 +191,8 @@
        .homepage-content-paragraph{
         font-size: 11px;
        }
+     
+    
   }
   @media (max-width:550px) {
      .background_video{
@@ -206,4 +211,7 @@
        .homepage-content-paragraph{
         font-size: 20px;
        }
+       .logoimg{
+        display: block;
+    }
   }

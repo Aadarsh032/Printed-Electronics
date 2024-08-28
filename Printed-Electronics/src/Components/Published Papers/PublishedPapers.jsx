@@ -29,9 +29,9 @@ const PublishedPapers = () => {
               return (<div key={index} className='publishedpapers-content-papers-box'>
 
                 <h1 className='publishedpapers-heading'>{papers.topic_name}</h1>
-                <p className='publishedpapers-authors'><b>Project Instructor : </b>{papers.project_instructor}</p>
-                <p className='publishedpapers-authors'><b>Sanctioned amount : </b>{papers.sanctioned_amount}</p>
-                <p className='publishedpapers-authors'><b>Funding Agency : </b>{papers.funding_agency}</p>
+                <h1 className='publishedpapers-authors'><b>Project Instructor : </b>{papers.project_instructor}</h1>
+                <h1 className='publishedpapers-authors'><b>Sanctioned amount : </b>{papers.sanctioned_amount}</h1>
+                <h1 className='publishedpapers-authors'><b>Funding Agency : </b>{papers.funding_agency}</h1>
 
               </div>)
             })}
@@ -48,7 +48,7 @@ const PublishedPapers = () => {
 
             {book_chapters.map((chapters, index) => {
               return (<div key={index} className='publishedpapers-content-papers-box'>
-                <p className='publishedpapers-authors'>{chapters.book_description}</p>
+                <p className='publishedpapers-authors1'>{chapters.book_description}</p>
               </div>)
             })}
 
