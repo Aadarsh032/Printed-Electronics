@@ -10,7 +10,7 @@ import  siraj from './profilephotos/siraj.jpeg'
 import syed_jalal from './profilephotos/syed jalal.jpeg'
 import shashwat from  './profilephotos/Shaswat.jpeg'
 import sanika from './profilephotos/Sanika.jpeg'
-import faisalmshah from './profilephotos/faisalmshah.jpeg'
+import faisalmshah from './profilephotos/faisalmshah.jpg'
 
 
 export const professor =[
