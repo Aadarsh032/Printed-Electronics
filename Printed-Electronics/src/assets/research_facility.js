@@ -4,7 +4,7 @@ import Sonoplot_Microplotter_Proto from './Sonoplot Microplotter Proto(Inkjet Pr
 import Spincoater from './Spincoater.jpg'
 import Probe_Station from './Probe Station.jpg'
 import Keithley_2450_SourceMeter from './Keithley 2450 SourceMeter.jpg'
-import UV_ozone_cleaner from './UV ozone cleaner.jpg'
+import UV_ozone_cleaner from './UV ozone cleaner.jpeg'
 
 import Muffle_Furnace from './Muffle Furnace.jpg'
 import Tubular_Furnace from './Tubular Furnace.jpeg'
