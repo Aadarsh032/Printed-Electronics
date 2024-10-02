@@ -5,6 +5,7 @@ import nanostructure from '../assets/Focus Area/nanostructure_material-min.png'
 import sensor from '../assets/Focus Area/sensor-min.png'
 import thinfilm from '../assets/Focus Area/Characterization-min.png'
 
+
 const researchinterests = [
     {
         topic_name:"Printed and flexible electronics",
@@ -33,6 +34,12 @@ const researchinterests = [
         topic_name:"Nanostructured materials",
         topic_desc:"Nanostructured materials are materials that are engineered on a nanoscale, meaning at the level of individual atoms and molecules. This unique structure allows for the creation of materials with enhanced properties, such as improved strength, conductivity, and optical properties. Nanostructured materials have a wide range of applications, including in electronics, energy, and biomedical devices. Research in this field aims to create new and innovative materials with unique properties that can be utilized in a variety of industries and technologies. ",
         topic_img: nanostructure           
+    },
+     {
+        topic_name:"Aadarsh",
+        topic_desc:"hello ices.",
+        topic_img: memresistor  
+    
     }
 ]
 export default researchinterests;
