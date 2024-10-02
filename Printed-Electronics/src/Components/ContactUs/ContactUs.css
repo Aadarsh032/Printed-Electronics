@@ -38,7 +38,8 @@
 .contactus-map{
     border-radius: 20px;
     /* border: 2px solid black; */
-    border: 2px solid  #1573ff;
+    border: 2px solid  #1E3E62 ;
+    /* background:  #1E3E62 ; */
     box-shadow: 0 0 10px #999;
 }
 ::-webkit-scrollbar{
@@ -46,8 +47,7 @@
     border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb {
-    /* background: linear-gradient(264deg,#08dfbb 50.41%, #1573ff 90.45%);  */
-    background: linear-gradient(264deg,rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%) ;
+    background: #192A51;
     border-radius: 10px; 
   }
 

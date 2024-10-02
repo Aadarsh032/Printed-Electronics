@@ -5,7 +5,8 @@
     align-items: center;
     animation: fadeIn 3s;
     margin-bottom: 20px;
-    
+    color: black;
+    text-shadow: 2px 2px black;
     
 }
 .oureteam-main-heading{
@@ -90,7 +91,9 @@ text-align: center;
     gap:20px;
      align-items: center;
     /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
-    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    /* background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%); */
+    background:  #1E3E62 ;
+    /* background: linear-gradient(180deg, rgb(125, 217, 237) 5%,#1E3E62, #1E3E62 95%); */
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -113,8 +116,8 @@ text-align: center;
     width: 390px;
     gap:20px;
      align-items: center;
-    /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
-    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+    /* background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%); */
+    background:  #1E3E62 ;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -133,8 +136,8 @@ text-align: center;
     width: 390px;
     gap:20px;
      align-items: center;
-     /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
-     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     /* background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%); */
+     background:  #1E3E62 ;
      color: white;
     padding: 20px;
     border-radius: 10px;
@@ -174,7 +177,7 @@ text-align: center;
     gap:20px;
      align-items: center;
      /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
-     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     background: linear-gradient(180deg, rgb(125, 217, 237) 5%,#1E3E62, #1E3E62 95%);
      color: white;
     padding: 20px;
     border-radius: 10px;
@@ -189,18 +192,21 @@ text-align: center;
 }
 .alumini-student-content{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     width: 390px;
     gap:20px;
-     align-items: center;
+    align-items: center;
      /* background-image: linear-gradient(45deg,#192A51, #A9DEF9); */
-     background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+     /* background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%); */
+     background:  #1E3E62 ;
+     /* background: linear-gradient(180deg, rgb(125, 217, 237) 5%,#1E3E62, #1E3E62 95%); */
      color: white;
     padding: 20px;
     border-radius: 10px;
     border: 2px solid  #1573ff;
     box-shadow: 0 0 5px #999;
 }
+
 
 @media (max-width:500px) {
      .phd-student-content {

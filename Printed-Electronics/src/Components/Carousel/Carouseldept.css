@@ -35,13 +35,14 @@
     font-weight: 600;
   }
   .explore-button:hover{
-    background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%);
+
+    background: #1E3E62;
+    color: white;
   }
 
   @media (max-width:770px){
      .embla__slide-img{
       height: 280px;
-      /* width: 800px; */
       border-radius: 10px;
     }
   }

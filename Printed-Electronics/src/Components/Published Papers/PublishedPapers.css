@@ -9,7 +9,8 @@
     width: fit-content;
 }
 .publishedpapers-content hr{
-    background: linear-gradient(264deg,rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%) ;
+    /* background: linear-gradient(264deg,rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%) ; */
+    background: #1E3E62;
     width: 10px;
     margin-right: 20px;
 }
@@ -26,7 +27,8 @@
     padding: 10px;
     border-radius: 7px;
     color: white;
-    background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1));
+    /* background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1)); */
+    background: #1E3E62;
     transition: 2s;
 }
 .publishedpapers-content-papers-box:hover{
@@ -69,7 +71,8 @@
     width: 1350px;
     margin: auto;
     background-image: linear-gradient(45deg,#192A51, #4fbff7);
-    background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1));
+    /* background-image: linear-gradient(45deg,rgba(61,82,160,1) , rgba(112,145,230,1)); */
+    background: #1E3E62;
     color: white;
     box-shadow: 0 0 5px black;
     padding: 20px;

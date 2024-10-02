@@ -41,13 +41,16 @@
 }
 .homepage-content-heading
 {
+    color: black;
+    text-shadow: 2px 2px white;
     font-size: 100px;
     margin-bottom: 10px;
 }
 .homepage-content-paragraph{
+    color: black;
+    text-shadow: 2px 2px white;
     margin-top: 0px;
     font-size: 30px;
-    color: black;
 }
 .homepage-content-text{
     display: flex;

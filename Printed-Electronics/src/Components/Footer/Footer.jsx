@@ -18,7 +18,7 @@ const Footer = () => {
       <div className='courtesy'>
       <h2 className='title'>Courtesy</h2>
       <p className='courtesy_content'>Pic Courtesy: Printed Electronics Team </p>
-        <p className='courtesy_content'>Website: <a href="https://aadarshportfolio.orangecom.xyz/" target='_blank' className='footer_links'>Aadarsh Kumar</a></p>
+        <p className='courtesy_content'>Website: <a href="https://aadarshportfolio.orangecom.xyz/" target='_blank' className='footer_links'><u>Aadarsh Kumar</u></a></p>
       </div>
       </div>
       <hr />

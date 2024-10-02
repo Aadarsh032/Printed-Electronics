@@ -3,7 +3,8 @@
     /* width:100%; */
     justify-content: space-around;
     justify-content: space-between;
-    background: linear-gradient(31deg, rgba(112,145,230,1) 20%, rgba(61,82,160,1) 80%);
+    /* background: linear-gradient(31deg, rgba(112,145,230,1) 20%, rgba(61,82,160,1) 80%); */
+    background: linear-gradient(180deg, rgb(125, 217, 237) 5%,#1E3E62, #1E3E62 95%);
     box-shadow: 0 0 10px #000000;
     font-size:medium;
     flex-direction: column;
