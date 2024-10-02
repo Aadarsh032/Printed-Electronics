@@ -25,15 +25,15 @@ const Navbar = () => {
        <img src={menu_open} onClick={()=>{openMenu()}} alt="" className='nav-mob-open' />
       <ul  ref={menuRef} className='navbar-pages' >
       <img src={menu_close} onClick={()=>{closeMenu()}} alt="" className='nav-mob-close' />
-        <li><Link className='linktag' to='/Home' onClick={()=>{setState("Home")}}> Home {state=="Home"?<hr className='nav-hr' />:<></>} </Link></li>
-        <li><Link className='linktag' to='/About' onClick={()=>{setState("AboutUs")}}>About Us {state=="AboutUs"?<hr className='nav-hr' />:<></>}</Link>  </li>
-        <li> <Link className='linktag' to='/PublishedPapers' onClick={()=>{setState("PublishedPapers")}}>Published Papers {state=="PublishedPapers"?<hr className='nav-hr' />:<></>}</Link></li>
-        <li> <Link className='linktag' to='/ResearchFacility' onClick={()=>{setState("ResearchFacilities")}}>Research Facilities {state=="ResearchFacilities"?<hr className='nav-hr' />:<></>}</Link></li>
-        <li> <Link className='linktag' to='/OurTeam' onClick={()=>{setState("OurTeam")}}>Our Team {state=="OurTeam"?<hr className='nav-hr'/>:<></>}</Link></li>
-        <li> <Link className='linktag' to='/NewsUpdates' onClick={()=>{setState("News&Updates")}}>News & Updates {state=="News&Updates"?<hr className='nav-hr'/>:<></>}</Link></li>
-        <p id='contactbuttonhid'> <Link className='linktaghid' to='/ContactUs' onClick={()=>{setState(null)}}>Contact Us</Link></p>
+        <li><Link className='linktag' to='/Home' onClick={()=>{setState("Home"); closeMenu()}}> Home {state=="Home"?<hr className='nav-hr' />:<></>} </Link></li>
+        <li><Link className='linktag' to='/About' onClick={()=>{setState("AboutUs"); closeMenu()}}>About Us {state=="AboutUs"?<hr className='nav-hr' />:<></>}</Link>  </li>
+        <li> <Link className='linktag' to='/PublishedPapers' onClick={()=>{setState("PublishedPapers"); closeMenu()}}>Published Papers {state=="PublishedPapers"?<hr className='nav-hr' />:<></>}</Link></li>
+        <li> <Link className='linktag' to='/ResearchFacility' onClick={()=>{setState("ResearchFacilities"); closeMenu()}}>Research Facilities {state=="ResearchFacilities"?<hr className='nav-hr' />:<></>}</Link></li>
+        <li> <Link className='linktag' to='/OurTeam' onClick={()=>{setState("OurTeam"); closeMenu()}}>Our Team {state=="OurTeam"?<hr className='nav-hr'/>:<></>}</Link></li>
+        <li> <Link className='linktag' to='/NewsUpdates' onClick={()=>{setState("News&Updates"); closeMenu()}}>News & Updates {state=="News&Updates"?<hr className='nav-hr'/>:<></>}</Link></li>
+        <p id='contactbuttonhid'> <Link className='linktaghid' to='/ContactUs' onClick={()=>{setState(null); closeMenu()}}>Contact Us</Link></p>
       </ul>
-      <p id='contactbutton'> <Link className='linktag' to='/ContactUs' onClick={()=>{setState(null)}}>Contact Us</Link></p>
+      <p id='contactbutton'> <Link className='linktag' to='/ContactUs' onClick={()=>{setState(null); closeMenu()}}>Contact Us</Link></p>
     </div>
   )
 }
