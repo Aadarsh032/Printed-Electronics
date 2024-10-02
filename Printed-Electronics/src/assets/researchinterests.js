@@ -5,6 +5,7 @@ import nanostructure from '../assets/Focus Area/nanostructure_material-min.png'
 import sensor from '../assets/Focus Area/sensor-min.png'
 import thinfilm from '../assets/Focus Area/Characterization-min.png'
 
+
 const researchinterests = [
     {
         topic_name:"Printed and flexible electronics",

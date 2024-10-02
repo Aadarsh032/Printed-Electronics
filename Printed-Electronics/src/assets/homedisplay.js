@@ -6,6 +6,8 @@ import fifthimg from './5.jpeg'
 
 
 
+
+
 const homedisplay = [
     {
         image: firstimg,
@@ -27,6 +29,7 @@ const homedisplay = [
         image: fifthimg,
     
     }
+
 
 ];
 
