@@ -94,4 +94,19 @@ export const project_stu =[
    },
    
 ]
+
+
+export const alumini =[
+  `Rinsha P.C,`,
+  `Jagini Sai Avinash,`,
+  `Saud Akthar,`,
+  'K Sirajul Muneer,',
+  `Mitali Vijay,`,
+  `Syed Helal,`,
+  `Shehin KB,`,
+  `Ayana Johns`
+]
+
+
 export default mtech_stu;
+
