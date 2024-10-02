@@ -16,7 +16,5 @@ export const upcomingevents=[
 
 
 export const currentopenings=[
-    
-         "Join our research group as a Ph.D. student! Interested candidates can send there applications to @suresh.kumar@msme.iith.ac.in "
-    
+         "Join our research group as a Ph.D. student! Interested candidates can send there applications to @suresh.kumar@msme.iith.ac.in ",
 ]

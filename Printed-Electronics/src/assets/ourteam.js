@@ -11,6 +11,7 @@ import syed_jalal from './profilephotos/syed jalal.jpeg'
 import shashwat from  './profilephotos/Shaswat.jpeg'
 import sanika from './profilephotos/Sanika.jpeg'
 import faisalmshah from './profilephotos/faisalmshah.jpg'
+import karrirao from './profilephotos/Karri Rao.jpeg'
 
 
 export const professor =[
@@ -46,6 +47,11 @@ export const phd_stu =[
       name:"Tamil",
       profile_photo:Tamilselvan,
       description:"I'm Tamil Selvan R, holding a master's degree in Green Energy Technology from Pondicherry University, and a bachelor's degree in Nanoscience and Technology. Presently, I'm employed as a Junior Research Fellow at IITH. My research interests revolve around renewable energy harvesting and resistive switching memories."
+   },
+   {
+      name:"Karri Trinadha Rao",
+      profile_photo:karrirao,
+      description:"I am Karri Trinadha Rao, currently pursuing a PhD at IITH, with a background in VLSI & Embedded Systems (M.Tech) and Electronics and Communication Engineering (B.Tech). My research interest is nanomaterials, flexible biosensors, and pressure sensors. Fueled by a deep passion for innovation, I am dedicated to pushing the boundaries of nanotechnology and contributing to the advancement of flexible biosensor technology."
    }
     
 ]
