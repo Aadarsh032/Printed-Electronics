@@ -1,5 +1,5 @@
 import topic_img from '../assets/Focus Area/research-area.jpg'
-import Printed_and_Flexible_Electronics from '../assets/Focus Area/Printed_transistor-min.png'
+import Printed_and_Flexible_Electronics from '../assets/Focus Area/Printed_transistor-min.jpg'
 import memresistor from '../assets/Focus Area/Memristor-min.png'
 import nanostructure from '../assets/Focus Area/nanostructure_material-min.jpg'
 import sensor from '../assets/Focus Area/sensor-min.jpg'

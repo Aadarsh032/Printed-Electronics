@@ -8,7 +8,7 @@ import seventhimg from './7.jpg'
 import eighthimg from './8.jpg'
 import ninethimg from './9.jpg'
 import tenthimg from './10.png'
-import eleventhimg from './11.jpg'
+// import eleventhimg from './11.jpg'
 
 
 
@@ -46,9 +46,6 @@ const homedisplay = [
     },
     {
         image: tenthimg,
-    },
-    {
-        image: eleventhimg,
     }
 ];
 
