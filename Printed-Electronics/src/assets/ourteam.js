@@ -10,7 +10,7 @@ import  siraj from './profilephotos/siraj.jpeg'
 import syed_jalal from './profilephotos/syed jalal.jpeg'
 import shashwat from  './profilephotos/Shaswat.jpeg'
 import sanika from './profilephotos/Sanika.jpeg'
-import faisalmshah from './profilephotos/faisalmshah.jpg'
+import faisalmshah from './profilephotos/Faisalmshah.jpeg'
 import karrirao from './profilephotos/Karri Rao.jpeg'
 import bhaswati from './profilephotos/Bhaswati Biswas.jpeg'
 
