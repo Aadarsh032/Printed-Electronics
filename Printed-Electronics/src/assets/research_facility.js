@@ -67,7 +67,7 @@ export const lab_device_list = [
     }, 
     {
         device_name: "Photonic curing system",
-        device_description: "Printer - The printer is capable of producing picoliter-sized droplets, forming features on a surface as small as 20 µm in width. When coupled with automatic surface height calibration, it achieves coefficient of variation for deposited feature diameters as low as 10%. The system is compatible with a wide range of fluids, including aqueous solutions and many organic solvent-based mixtures.Besides creating spots, the Microplotter Proto can draw continuous features, such as lines, arcs, and bends.",
+        device_description: "Photonic curing is a process that uses intense, short pulses of light to rapidly heat and sinter thin-film materials, such as metal nanoparticles or conductive inks, without damaging the underlying substrates. This method is particularly effective for materials like printed electronics on flexible substrates, where traditional thermal processing could cause warping or damage. Photonic curing achieves extremely high temperatures in microseconds, enabling rapid sintering of the top layer while preserving temperature-sensitive materials below. It is widely used in applications such as crosslinking of polymers, flexible displays, printed circuit boards, and solar cells.",
         device: photonic_curing_sys
     }, 
     {
