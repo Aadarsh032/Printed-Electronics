@@ -12,7 +12,7 @@ const Footer = () => {
       </div>
       <div className='contact'>
       <h2 className='title'>Contact</h2>
-        <p className='contact_content'>Dr.SURESH KUMAR GARLAPATI</p>
+        <p className='contact_content'>Dr. SURESH KUMAR GARLAPATI</p>
         <p className='contact_content'>Room: 307, MSME block <br/> Indian Institute of Technology, Hyderabad <br/> Sangareddy-502284,Telangana, India <br/> gsuresh@msme.iith.ac.in </p>
       </div>
       <div className='courtesy'>

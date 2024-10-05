@@ -4,14 +4,16 @@ import Sonoplot_Microplotter_Proto from './Sonoplot Microplotter Proto(Inkjet Pr
 import Spincoater from './Spincoater.jpg'
 import Probe_Station from './Probe Station.jpg'
 import Keithley_2450_SourceMeter from './Keithley 2450 SourceMeter.jpg'
-import UV_ozone_cleaner from './UV ozone cleaner.jpeg'
-
+import UV_ozone_cleaner from './UV ozone cleaner.jpg'
+import photonic_curing_sys from './photonic curing system.jpeg'
 import Muffle_Furnace from './Muffle Furnace.jpg'
 import Tubular_Furnace from './Tubular Furnace.jpeg'
 import Smart_printer_UV from './Smart Printer UV.jpg'
 import Fume_Hood_1 from './Fume Hood 1.jpg'
 import Disperser from './Disperser.jpg'
 import Thermal_evaporator from './Thermal Evaporator.jpg'
+import Gas_sensing_setup from './Gas sensing setup.jpg'
+
 
 
 
@@ -66,7 +68,7 @@ export const lab_device_list = [
     {
         device_name: "Photonic curing system",
         device_description: "Printer - The printer is capable of producing picoliter-sized droplets, forming features on a surface as small as 20 µm in width. When coupled with automatic surface height calibration, it achieves coefficient of variation for deposited feature diameters as low as 10%. The system is compatible with a wide range of fluids, including aqueous solutions and many organic solvent-based mixtures.Besides creating spots, the Microplotter Proto can draw continuous features, such as lines, arcs, and bends.",
-        device: Muffle_Furnace
+        device: photonic_curing_sys
     }, 
     {
         device_name: "Tubular Furnace",
@@ -77,7 +79,15 @@ export const lab_device_list = [
         device_name: "Muffle Furnace",
         device_description: "A muffle furnace is a high-temperature oven used in laboratories to perform various heat treatment processes, such as ashing, sintering, and annealing. It features an insulated chamber that isolates the material from direct contact with combustion by-products, ensuring a clean and controlled heating environment. These furnaces are essential for precise thermal applications in chemistry, materials science, and metallurgy.",
         device: Muffle_Furnace
+    },
+    {
+        device_name: "Gas Sensing Setup",
+        device_description: " A typical gas sensing setup consists of a gas chamber, sensor, control electronics, and data acquisition system. The sensor, often based on materials like metal-oxide semiconductors (MOS), conducting polymers, or organic thin-film transistors (OTFTs), is placed in a controlled environment where target gases are introduced. The sensor detects changes in electrical properties (resistance, capacitance, or current) when exposed to the target gas. These changes are recorded by the control electronics and fed into the data acquisition system for analysis. The system is equipped with flow controllers to regulate gas concentration and a temperature controller for optimizing sensor performance. This setup enables precise detection and quantification of gases, making it ideal for applications such as environmental monitoring and VOC detection.",
+        device: Gas_sensing_setup
     }
+
+
+   
 ]
 
 export default lab_device_list;

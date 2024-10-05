@@ -12,6 +12,7 @@ import shashwat from  './profilephotos/Shaswat.jpeg'
 import sanika from './profilephotos/Sanika.jpeg'
 import faisalmshah from './profilephotos/faisalmshah.jpg'
 import karrirao from './profilephotos/Karri Rao.jpeg'
+import bhaswati from './profilephotos/Bhaswati Biswas.jpeg'
 
 
 export const professor =[
@@ -52,6 +53,11 @@ export const phd_stu =[
       name:"Karri Trinadha Rao",
       profile_photo:karrirao,
       description:"I am Karri Trinadha Rao, currently pursuing a PhD at IITH, with a background in VLSI & Embedded Systems (M.Tech) and Electronics and Communication Engineering (B.Tech). My research interest is nanomaterials, flexible biosensors, and pressure sensors. Fueled by a deep passion for innovation, I am dedicated to pushing the boundaries of nanotechnology and contributing to the advancement of flexible biosensor technology."
+   },
+   {
+      name:"Bhaswati Biswas",
+      profile_photo:bhaswati,
+      description:"I'm Bhaswati Biswas, currently pursuing doctoral studies in Materials Science and Metallurgical Engineering at IIT Hyderabad. I'm a bachelorette in Physics with masters in Applied Physics (M.Sc. AP ) from Calcutta University and Amity University,  Kolkata. My research interests are Resistive switching memories, Organic transistors, Nanomaterials fabrication and energy storage devices."
    }
     
 ]
