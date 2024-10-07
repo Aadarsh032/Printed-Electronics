@@ -33,7 +33,7 @@ export const lab_device_list = [
         device: Neutation_iSTIR_HP550_PRIME
     },
     {
-        device_name: "UV Ozone Cleaner",
+        device_name: "UV/Ozone Cleaner",
         device_description: "UV ozone cleaner description: Ultraviolet (UV) ozone cleaners have proven highly effective in non-acidic, dry, and non-destructive atomic cleaning processes. They efficiently eradicate organic contaminants by utilizing intense UV light at 185 nm and 254 nm. The 185 nm wavelength generates ozone in the presence of oxygen, while the 254 nm wavelength activates organic molecules on surfaces. This dual mechanism swiftly destroys and eliminates organic contaminations. UV ozone cleaners are versatile tools capable of cleaning contaminants from a wide range of substrates, including Si, GaAs, quartz, sapphire, glass, mica, ceramics, metals, and various other materials.",
         device: Uv_ozone_cleaner
     }, 
@@ -78,7 +78,7 @@ export const lab_device_list = [
         device: Probe_Station
     }, 
     {
-        device_name: "Keithley 2450 SourceMeter Unit",
+        device_name: "Keithley 2450 Source Measure Unit",
         device_description: "The Source Measure Unit (SMU) integrated with a probe station enhances its capabilities by allowing precise sourcing of voltage or current and simultaneous measurement of voltage and current. The SMU serves as a versatile tool for various applications, including I-V (current-voltage) characterization, device testing, and curve tracing, offering the functionality of both a power supply and a digital multimeter.",
         device: Keithley_2450
     }, 
