@@ -60,7 +60,7 @@
     align-items: center;
     flex-direction: row;
     font-size: 15px;
-    gap: 40px;
+    gap: 30px;
     width: 750px;
     margin: 5px;
     /* background: linear-gradient(31deg, rgba(61,82,160,1) 20% , rgba(112,145,230,1) 80%); */
@@ -81,7 +81,7 @@
    border-radius: 10px;
     height:250px;
     margin-left: 20px;
-    width: 200px;
+    width: 300px;
     box-shadow: 0 0 10px #999;
 }
 .aboutsection-areaofinterest-box{
@@ -213,7 +213,7 @@
 }
 @media (max-width:760px){
     .aboutsection-description-box p{
-        font-size: 18px;
+        font-size: 14px;
     }
     .aboutsection-description-box {
         position: relative;
@@ -231,7 +231,9 @@
     }
 }
 @media (max-width:560px){
- 
+    .aboutsection-description-box p{
+        font-size: 10px;
+    }
     .interests-format{
        
         display: flex;
@@ -240,14 +242,14 @@
         padding: 10px;
     }
     .interests-heading{
-        font-size: 25px;
+        font-size: 20px;
     }
     .interests-description{
-        font-size: 15px;
+        font-size: 10px;
     }
     .profile-img{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
     .professor-content-upperdiv{
         display: flex;
@@ -255,5 +257,14 @@
         align-items: center;
         text-align: center;
     }
+    .interests-format-img{
+         margin-left: 0px;
+         height: 150px;
+         width: 200px;
+     }
+     .interests-format-right{
+        margin-right: 0px;
+    }
+
 
 }

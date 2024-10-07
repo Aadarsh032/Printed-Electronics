@@ -14,6 +14,7 @@ const Navbar = () => {
    
    const openMenu= ()=>{
      menuRef.current.style.right="0";
+     window.scrol
    }
    const closeMenu = () => {
      menuRef.current.style.right ="-390px";

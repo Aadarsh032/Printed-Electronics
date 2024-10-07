@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className='lower_content'>
-            <p className='copyright'>Copyright © 2024 - 2026 Printed Electronics. All rights reserved. <br />Last updated on May, 2024 </p>
+            <p className='copyright'>Copyright © 2024 - 2026 Printed Electronics. All rights reserved. <br />Last updated on October, 2024 </p>
       </div>
   </div>
   )

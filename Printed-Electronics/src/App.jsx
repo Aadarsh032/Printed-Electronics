@@ -10,11 +10,15 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Footer from './Components/Footer/Footer'
 import Collaborators from './Components/Collaborators/Collaborators'
 
+
+
 function App() {
   return (
     
     <BrowserRouter>
+ 
     <Navbar/>
+    
     <Routes>
       <Route path='/' element={<Home/>}></Route>
       <Route path='/Home' element={<Home/>}></Route>

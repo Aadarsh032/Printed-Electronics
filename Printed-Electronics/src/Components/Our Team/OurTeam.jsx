@@ -137,19 +137,6 @@ const OurTeam = () => {
                   )
                 })
               }
-
-
-
-              {/* <div className='textbox'>
-                <h1 className='name' >Rinsha P.C</h1>
-                <h1 className='name' >Jagini Sai Avinash</h1>
-                <h1 className='name' >Saud Akthar</h1>
-                <h1 className='name' >K Sirajul Muneer</h1>
-                <h1 className='name' >Mitali Vijay</h1>
-                <h1 className='name' >Syed Helal</h1>
-                <h1 className='name' >Shehin KB</h1>
-                <h1 className='name' >Ayana Johns</h1>
-              </div> */}
             </div>
 
           </div>

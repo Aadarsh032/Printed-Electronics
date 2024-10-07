@@ -84,6 +84,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     gap: 20px;
+   
 }
 .professor-content{
     display: flex;
@@ -213,8 +214,6 @@ text-align: center;
 }
 
 
-
-
 @media (max-width:500px) {
      .phd-student-content {
         width: fit-content;
@@ -230,7 +229,33 @@ text-align: center;
     .oureteam-main-heading{
         font-size: 40px;
     }
-    
+    .professor-box-text{
+        font-size: 12px;
+    }
+    .name{
+        font-size:18px;
+    }
+    .description{
+        font-size: 10px;
+    }
+    .alumini-student-content{
+        padding: 10px;
+    }
+    .project-student-content{
+        padding: 10px;
+    }
+    .JRF-student-content{
+        padding: 10px;
+    }
+    .mtech-student-content{
+        padding: 10px;
+    }
+    .phd-student-content {
+        padding: 10px;
+    }
+    .professor-content{
+        padding: 15px;
+    }
 }
 
 

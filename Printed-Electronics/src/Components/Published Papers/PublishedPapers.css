@@ -167,7 +167,7 @@
         font-size: 10px;
     }
     .publishedpapers-heading{
-        font-size: 15px;
+        font-size: 10px;
     }
     .publishedpapers-heading-main{
         font-size: 35px;
@@ -175,5 +175,10 @@
     .publishedpapers-authors1{
         font-size: 10px;
     }
+    .publishedpapers-content-papers li {
+    font-size: 15px;
+    }
+
+
 
 }
