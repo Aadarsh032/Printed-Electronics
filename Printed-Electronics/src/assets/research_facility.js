@@ -34,11 +34,11 @@ export const lab_device_list = [
     },
     {
         device_name: "UV/Ozone Cleaner",
-        device_description: "UV ozone cleaner description: Ultraviolet (UV) ozone cleaners have proven highly effective in non-acidic, dry, and non-destructive atomic cleaning processes. They efficiently eradicate organic contaminants by utilizing intense UV light at 185 nm and 254 nm. The 185 nm wavelength generates ozone in the presence of oxygen, while the 254 nm wavelength activates organic molecules on surfaces. This dual mechanism swiftly destroys and eliminates organic contaminations. UV ozone cleaners are versatile tools capable of cleaning contaminants from a wide range of substrates, including Si, GaAs, quartz, sapphire, glass, mica, ceramics, metals, and various other materials.",
+        device_description: "Ultraviolet (UV) ozone cleaners have proven highly effective in non-acidic, dry, and non-destructive atomic cleaning processes. They efficiently eradicate organic contaminants by utilizing intense UV light at 185 nm and 254 nm. The 185 nm wavelength generates ozone in the presence of oxygen, while the 254 nm wavelength activates organic molecules on surfaces. This dual mechanism swiftly destroys and eliminates organic contaminations. UV ozone cleaners are versatile tools capable of cleaning contaminants from a wide range of substrates, including Si, GaAs, quartz, sapphire, glass, mica, ceramics, metals, and various other materials.",
         device: Uv_ozone_cleaner
     }, 
     {
-        device_name: "Photonic Curing System",
+        device_name: "Photonic Curing Unit",
         device_description: "Photonic curing is a process that uses intense, short pulses of light to rapidly heat and sinter thin-film materials, such as metal nanoparticles or conductive inks, without damaging the underlying substrates. This method is particularly effective for materials like printed electronics on flexible substrates, where traditional thermal processing could cause warping or damage. Photonic curing achieves extremely high temperatures in microseconds, enabling rapid sintering of the top layer while preserving temperature-sensitive materials below. It is widely used in applications such as crosslinking of polymers, flexible displays, printed circuit boards, and solar cells.",
         device: Photonic_curing
     }, 
